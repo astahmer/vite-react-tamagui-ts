@@ -15,7 +15,7 @@ export const Demo = () => {
                     <div>
                         <input type="checkbox" onChange={() => setIsShown((current) => !current)} />
                         <Show when={isShown} fallback="fallback">
-                            {() => obj.text}
+                            {() => obj!.text}
                         </Show>
                     </div>
                 </div>
