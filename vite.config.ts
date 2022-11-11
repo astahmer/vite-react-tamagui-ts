@@ -24,7 +24,7 @@ export default defineConfig((env) => ({
         checker({ typescript: true, overlay: { initialIsOpen: false, position: "tl" } }),
         tamaguiPlugin(tamaguiConfig),
         // optional, adds the optimizing compiler:
-        tamaguiExtractPlugin(tamaguiConfig),
+        // tamaguiExtractPlugin(tamaguiConfig),
     ],
     resolve: {
         alias: [
